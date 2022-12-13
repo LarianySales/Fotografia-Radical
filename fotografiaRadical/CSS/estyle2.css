@@ -19,38 +19,39 @@ body {
     width: 1285px;
     height: 1631px;
     top: 0px;
-    left: 7px;
+    left: 12px;
 
     background: rgba(0, 0, 0, 0.71);
 
 }
-legend{
-position: absolute;
-width: 1040px;
-height: 500px;
-left: 123px;
-top: 184px;
 
-background: #E6E5E5;
-border-radius: 31px;
+legend {
+    position: absolute;
+    width: 1040px;
+    height: 500px;
+    left: 123px;
+    top: 184px;
+
+    background: #E6E5E5;
+    border-radius: 31px;
 }
 
-.caixa-login{
-position: absolute;
-width: 89px;
-height: 45px;
-left: 596px;
-top: 217px;
+.caixa-login {
+    position: absolute;
+    width: 89px;
+    height: 45px;
+    left: 596px;
+    top: 217px;
 
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
-font-size: 36px;
-line-height: 125.9%;
-/* or 45px */
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 125.9%;
+    /* or 45px */
 
 
-color: #000000;
+    color: #000000;
 }
 
 .E-mail {
@@ -94,7 +95,7 @@ color: #000000;
 }
 
 .senha {
-    position:absolute;
+    position: absolute;
     width: 835px;
     height: 100px;
     left: 0px;
@@ -105,7 +106,7 @@ color: #000000;
 .input-email {
     display: block;
     border-radius: 10px;
-    
+
     position: absolute;
     width: 834px;
     height: 65px;
@@ -150,81 +151,85 @@ color: #000000;
 
 }
 
-.cancelamento{
-position: absolute;
-width: 194px;
-height: 65px;
-left: 649px;
-top: 565px;
+.cancelamento {
+    position: absolute;
+    width: 194px;
+    height: 65px;
+    left: 649px;
+    top: 565px;
 
-box-sizing: border-box;
+    box-sizing: border-box;
 
-position: absolute;
-width: 194px;
-height: 65px;
-left: 649px;
-top: 565px;
+    position: absolute;
+    width: 194px;
+    height: 65px;
+    left: 649px;
+    top: 565px;
 
-border: 1px solid #000000;
-border-radius: 10px;
+    border: 1px solid #000000;
+    border-radius: 10px;
 }
 
-.entrar{
-position: absolute;
-width: 194px;
-height: 65px;
-left: 863px;
-top: 565px;
+.entrar {
+    position: absolute;
+    width: 194px;
+    height: 65px;
+    left: 863px;
+    top: 565px;
 
-box-sizing: border-box;
+    box-sizing: border-box;
 
-background: #161616;
-border: 1px solid #000000;
-border-radius: 10px;
+    background: #161616;
+    border: 1px solid #000000;
+    border-radius: 10px;
 
 }
 
-.cancelamento p{
-position: absolute;
-width: 194px;
-height: 30px;
-left: 2px;
-top: 20px;
+.cancelamento a {
+    position: absolute;
+    width: 194px;
+    height: 30px;
+    left: 2px;
+    top: 20px;
 
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
-font-size: 24px;
-line-height: 30px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
 
-text-align: center;
+    text-decoration: none;
 
-color: #161616;
+    text-align: center;
+
+    color: #161616;
 }
 
-.entrar p{
-position: absolute;
-width: 194px;
-height: 30px;
-left: 2px;
-top: 20px;
+.entrar a {
+    position: absolute;
+    width: 194px;
+    height: 30px;
+    left: 2px;
+    top: 20px;
 
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
-font-size: 24px;
-line-height: 125.9%;
-/* or 30px */
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
 
-text-align: center;
+    text-decoration: none;
 
-color: #FFFFFF;
+    text-align: center;
+
+    color: #FFFFFF;
 }
 
-button{
+.botao-login {
     display: block;
     border-radius: 10px;
 }
+
 /* POSIÇAO DA HEADER */
 header {
     position: absolute;
@@ -235,7 +240,7 @@ header {
 }
 
 /* BOTÃO DE LOGIN */
-button {
+.botao-login {
     position: absolute;
     width: 292px;
     height: 50px;
